@@ -3,28 +3,24 @@
     padding: 0;
     font-family: 'Source Sans Pro';
 }
-
 body {
     background-color: #fff;
     color: #333;
 }
-
 .container {
-    width: 45%;
+    width: 60%;
     margin: auto;
     border: 1px solid #999;
 }
-
 .header {
     background-color: #3b5998;
     color: white;
-    min-width: 100%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     border-bottom: 1px solid #2d4373;
 }
-
 p + strong {
     display: flex;
     flex-direction: row;
@@ -36,7 +32,6 @@ p + strong {
     display: flex;
     flex-direction: column;
 }
-
 .nav a {
     color: #bdc7d8;
     text-decoration: none;
@@ -46,22 +41,18 @@ p + strong {
     display: flex;
     flex-direction: row;
 }
-
 .nav a:hover {
     text-decoration: underline;
 }
-
 .main-content {
     display: flex;
     gap: 15px;
     margin-top: 15px;
 }
-
 .sidebar-left {
     width: 20%;
     padding: 10px;
 }
-
 .search-box {
     display: flex;
     margin-bottom: 15px;
@@ -69,11 +60,9 @@ p + strong {
     flex-direction: column;
     border: 1px dashed #3B5998;
 }
-
 .menu {
     border: 1px dashed #3B5998;
 }
-
 .search {
     display: flex;
     flex-direction: row;
@@ -83,7 +72,6 @@ p + strong {
     justify-content: center;
     align-items: center;
 }
-
 .search-box input {
     padding: 5px;
     width: 80%;
@@ -93,7 +81,6 @@ p + strong {
     border: 1px solid #3B5998;
     background-color: #D9DFEA;
 }
-
 .search-box button {
     background-color: #3b5998;
     color: white;
@@ -102,7 +89,6 @@ p + strong {
     font-size: 12px;
     cursor: pointer;
 }
-
 .menu a {
     display: block;
     color: #3b5998;
@@ -111,51 +97,40 @@ p + strong {
     margin: 5px 0;
     padding: 2px;
 }
-
 .menu {
     border: 1px dashed #3B5998;
 }
-
 .menu a:hover {
     text-decoration: underline;
 }
-
 .ad img {
-    min-width: 100%;
+    min-width: 80%;
     margin-top: 15px;
+    margin-left: 10px;
 }
-
 .profile-area {
     flex: 1;
     min-width: 100%;
     border: 1px solid #999;
 }
-
 .profile-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #3b5998;
     color: white;
-    padding: 5px 10px;
-    margin-bottom: 10px;
+    padding: 2px;
     font-size: 14px;
-    gap: 30px;
-    width: 97%;
-    border: 1px solid #999;
 }
-
 .profile-header .school {
     font-size: 12px;
     font-weight: normal;
     gap: 10px;
 }
-
 .section1, .section2, .section3, .section4, .section5, .section6  {
     border: 1px solid #999;
     margin-bottom: 10px;
 }
-
 .section h3 {
     background-color: #3b5998;
     color: white;
@@ -163,12 +138,10 @@ p + strong {
     margin: -10px -10px 10px -10px;
     font-size: 14px;
 }
-
 .section p {
     margin: 5px 0;
     font-size: 12px;
 }
-
 .action-link {
     display: block;
     color: #3b5998;
@@ -176,15 +149,12 @@ p + strong {
     font-size: 12px;
     margin-left: 10px;
 }
-
 hr {
     width: 100%;
 }
-
 .action-link:hover {
     text-decoration: underline;
 }
-
 .friends-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -192,7 +162,6 @@ hr {
     margin-top: 10px;
     padding: 10px;
 }
-
 .friend1, .friend2,
 .friend3, .friend4,
 .friend5, .friend6 {
@@ -202,23 +171,18 @@ hr {
     flex-direction: column;
     gap: 5px;
 }
-
 .friend img {
     width: 100%;
     object-fit: cover;
     border: 1px solid #ccc;
     margin-bottom: 5px;
 }
-
 .info-section {
-    width: 80%;
     border: 1px solid #999;
     padding: 10px;
     background-color: #fff;
-    width: 90%;
     margin-bottom: 65px;
 }
-
 .info-section h3 {
     background-color: #3b5998;
     color: white;
@@ -226,60 +190,51 @@ hr {
     margin: -10px -10px 10px -10px;
     font-size: 14px;
 }
-
 .info-category {
     margin-bottom: 15px;
 }
-
 .info-category h4 {
     margin-bottom: 5px;
     font-size: 13px;
     color: #333;
 }
-
 .info-row {
     display: flex;
     margin: 3px 0;
     font-size: 12px;
 }
-
 .info-row span:first-child {
     font-weight: bold;
     width: 120px;
     display: inline-block;
 }
-
 .info-row span:last-child {
     flex: 1;
 }
-
 .footer {
     text-align: center;
     font-size: 12px;
 }
-
 .footer-links a {
     color: #3b5998;
     text-decoration: none;
     margin: 0 8px;
     font-size: 12px;
 }
-
 .footer-links a:hover {
     text-decoration: underline;
 }
-
 .footer-copyright {
     margin-top: 5px;
     font-size: 11px;
     color: #666;
 }
-
 .picture {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 .image2 + .nav {
     display: flex;
@@ -304,6 +259,10 @@ hr {
 h3 {
     background-color: #3b5998;
     color: white;
+}
+p {
+    margin-left: 10px;
+    margin-top: 5px;
 }
 strong {
     color: #538ADC;
